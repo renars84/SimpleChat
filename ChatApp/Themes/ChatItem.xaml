@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="ListViewItem" x:Key="ChatItem">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Border Width="30" Height="30"
+                                Background="CornflowerBlue"
+                                CornerRadius="25"
+                                Margin="10,0,0,5"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="{Binding}" 
+                                   Foreground="White"
+                                   FontWeight="SemiBold"
+                                   VerticalAlignment="Center"
+                                   Margin="0,0,0,6"/>
+                        </StackPanel>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
