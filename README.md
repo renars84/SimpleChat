@@ -7,4 +7,4 @@
 ![](https://github.com/renars84/SimpleChat/blob/master/launch.gif)
 
 #Functionality
-![](https://github.com/renars84/SimpleChat/functionality.gif)
+![](https://github.com/renars84/SimpleChat/blob/master/functionality.gif)
